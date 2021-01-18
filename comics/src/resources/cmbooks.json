@@ -1,0 +1,17 @@
+{
+    "Captainman":{
+        "name":"Captainman",
+        "id":1,
+        "releaseDate":"12/10/2020"
+    },
+    "Batman":{
+        "name":"Batman",
+        "id":2,
+        "releaseDate":"12/10/2020"
+    },
+    "IronMan":{
+        "name":"IronMan",
+        "id":3,
+        "releaseDate":"12/10/2020"
+    }
+}
