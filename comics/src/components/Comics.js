@@ -27,7 +27,7 @@ export default function Comics() {
             <>
             {cmbooks.res.map((d,i)=>{
                 return(
-                <Grid item key={i}>
+                <Grid item key={i} xs={4}>
                 <Card className={classes.root}>
                         <CardActionArea>
                             <Image 

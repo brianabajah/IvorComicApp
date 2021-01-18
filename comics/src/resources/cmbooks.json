@@ -15,6 +15,39 @@
         "url":"https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
         "id":3,
         "releaseDate":"12/10/2020"
+    },
+    {
+        "name":"Batman",
+        "url":"https://homepages.cae.wisc.edu/~ece533/images/cat.png",
+        "id":2,
+        "releaseDate":"12/10/2020"
+    },{
+        "name":"IronMan",
+        "url":"https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
+        "id":3,
+        "releaseDate":"12/10/2020"
+    },
+    {
+        "name":"Batman",
+        "url":"https://homepages.cae.wisc.edu/~ece533/images/cat.png",
+        "id":2,
+        "releaseDate":"12/10/2020"
+    },{
+        "name":"IronMan",
+        "url":"https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
+        "id":3,
+        "releaseDate":"12/10/2020"
+    },
+    {
+        "name":"Batman",
+        "url":"https://homepages.cae.wisc.edu/~ece533/images/cat.png",
+        "id":2,
+        "releaseDate":"12/10/2020"
+    },{
+        "name":"IronMan",
+        "url":"https://homepages.cae.wisc.edu/~ece533/images/airplane.png",
+        "id":3,
+        "releaseDate":"12/10/2020"
     }
 ]
 }

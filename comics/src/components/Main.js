@@ -4,6 +4,7 @@ import Comics from './Comics';
 import Grid from '@material-ui/core/Grid';
 import Carousel from 'react-material-ui-carousel'
 import Paper from '@material-ui/core/Paper';
+import Box from '@material-ui/core/Box';
 // import Button from '@material-ui/core/Button';
 
 
@@ -17,6 +18,9 @@ const useStyles = makeStyles((theme) => ({
     background:"yellow",
     color: theme.palette.text.secondary,
   },
+  rightpanel:{
+    backgroundColor:"pink"
+  }
 }));
 
 
@@ -55,12 +59,25 @@ export default function Main() {
                     }
                 </Carousel>
                 </Grid>
-               
-                <Grid container item xs={12} spacing={3}
-                 direction="row"
-                 justify="space-between"
-                 alignItems="stretch">
-                <Comics/>
+                
+                <Grid container item xs={11} spacing={2}
+                   direction="row"
+                   justify="space-between"
+                   alignItems="stretch"
+                   >
+
+                            <Grid container item xs={9} spacing={3}
+                            direction="row"
+                            justify="space-between"
+                            alignItems="stretch">
+                            <Comics/>
+                            </Grid>
+
+                            <Grid xs={3} >
+                                <div className={classes.rightpanel}>
+                                    Hello World
+                                </div>
+                            </Grid>
                 </Grid>
              </Grid>
         </div>
