@@ -55,9 +55,13 @@ export default function Main() {
                     }
                 </Carousel>
                 </Grid>
-
+               
+                <Grid container item xs={12} spacing={3}
+                 direction="row"
+                 justify="space-between"
+                 alignItems="stretch">
                 <Comics/>
-
+                </Grid>
              </Grid>
         </div>
     )
