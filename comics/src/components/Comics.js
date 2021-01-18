@@ -12,6 +12,7 @@ import Image from 'material-ui-image';
 const useStyles = makeStyles({
     root: {
       maxWidth: 345,
+      minWidth: 200
     },
     media: {
       height: 140,
@@ -27,7 +28,7 @@ export default function Comics() {
             <>
             {cmbooks.res.map((d,i)=>{
                 return(
-                <Grid item key={i} xs={4}>
+                <Grid item key={i} xs={12} lg={4} sm={6}>
                 <Card className={classes.root}>
                         <CardActionArea>
                             <Image 
